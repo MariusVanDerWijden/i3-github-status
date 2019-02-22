@@ -27,3 +27,13 @@ Alternatively you can execute the python script `i3-github-status.py` every time
 exec --no-startup-id python ~/i3-github-status/i3-github-status.py
 ```
 to your i3 config
+
+## Format
+
+The output is in the format "GH: X : Y : Z" where X is the amount of issues your participating, Y is the amount of unread notifications and Z is the amount of total notification. 
+
+Currently X, Y and Z cap at 50 notifications since that is the limit for one page. 
+
+## Screenshot
+
+![Screenshot](screenshot.png)
